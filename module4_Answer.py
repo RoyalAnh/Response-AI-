@@ -31,7 +31,7 @@ def write_output_file(file_path: str, content: str):
         file.write(content)
 
 def main():
-    API_KEY = 'Fx49jOX6CmRDgF194Qir9xb9OlOuSBF26cpyWrPP' 
+    API_KEY = 'API_key'  #tự viết 
     cohere_client = CohereClient(API_KEY)
 
     conversation_history_file = 'conversation_history.txt'
